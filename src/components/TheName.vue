@@ -10,34 +10,39 @@ defineProps({
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
+    <h4>
+      强大而简洁的进销存管理系统
+      by
+      <a href="https://allto.one/" target="_blank" rel="noopener">Marrido</a>.
+    </h4>
   </div>
 </template>
 
 <style scoped>
 h1 {
   font-weight: 500;
-  font-size: 2.6rem;
-  top: -10px;
+  font-size: 2.2rem;
 }
 
-h3 {
-  font-size: 1.2rem;
+h4 {
+  font-size: 0.8rem;
 }
 
 .greetings h1,
-.greetings h3 {
+.greetings h4 {
   text-align: center;
 }
 
 @media (min-width: 1024px) {
   .greetings h1,
-  .greetings h3 {
+  .greetings h4 {
     text-align: left;
+    
   }
 }
+
+
+
+
+
 </style>

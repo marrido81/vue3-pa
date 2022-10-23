@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import TheName from './components/TheName.vue';
 </script>
 
 <template>
@@ -8,11 +8,11 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <TheName msg="进销存管理系统" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/">首页</RouterLink>
+        <RouterLink to="/signup">注册</RouterLink>
       </nav>
     </div>
   </header>
@@ -21,6 +21,10 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
+body {
+  min-width: 13.5rem;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -60,11 +64,12 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    /* padding-right: calc(var(--section-gap) / 2); */
+    margin-top: -4rem;
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+    margin: 0 2rem 0 5rem;
   }
 
   header .wrapper {
@@ -79,7 +84,7 @@ nav a:first-of-type {
     font-size: 1rem;
 
     padding: 1rem 0;
-    margin-top: 1rem;
+    margin-top: 0rem;
   }
 }
 </style>
