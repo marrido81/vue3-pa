@@ -58,32 +58,4 @@ export default defineComponent({
   min-width: 13.5rem;
 }
 
-/* .aform {
-  margin: 50px 100px 0px 100px;
-} */
-
-/* @media (max-width:575px) {
-  .aform {
-    margin: 50px 10px 0px 10px;
-  }
-}
-
-@media (min-width:576px) {
-  .aform {
-    margin: 50px 50px 0px 50px;
-  }
-}
-
-@media (min-width:768px) {
-  .aform {
-    margin: 50px 100px 0px 100px;
-  }
-}
-
-@media (min-width:992px) {
-  .aform {
-    margin: 50px 200px 0px 200px;
-  }
-} */
-
 </style>
