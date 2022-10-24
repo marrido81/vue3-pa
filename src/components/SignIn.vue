@@ -58,4 +58,5 @@ export default defineComponent({
   min-width: 13.5rem;
 }
 
+
 </style>
