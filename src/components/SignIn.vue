@@ -26,7 +26,7 @@ export default defineComponent({
     const formState = reactive({
       username: '',
       password: '',
-      remember: true,
+      remember: false,
     });
 
     const onFinish = values => {

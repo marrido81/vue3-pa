@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import TheName from './components/TheName.vue';
+import TheName from './components/TheIndex.vue';
 </script>
 
 <template>
